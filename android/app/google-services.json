@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "340431038693",
+    "project_id": "flutter-fire-try-6831a",
+    "storage_bucket": "flutter-fire-try-6831a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340431038693:android:7a1e9f25d09ba55eaecc0c",
+        "android_client_info": {
+          "package_name": "com.example.moencak_apps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340431038693-10tagtuc2niie72oaq2fqcfjilhud26n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBubPBHLDvsMKtoZEZF3rFHKmDuC1rDtf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340431038693-10tagtuc2niie72oaq2fqcfjilhud26n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "340431038693-48f1g4fbl257vjhouphtnsj46d950j9d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.moencakApps"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
