@@ -116,7 +116,7 @@ class _LoginPageState extends State<LoginPage> {
                       children: <Widget>[
                         ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                              backgroundColor: Color(0xFF968264),
+                              backgroundColor: Color(0xFF649665),
                               minimumSize: const Size.fromHeight(50)),
                           onPressed: signIn,
                           child: const Text(
