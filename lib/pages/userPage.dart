@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -12,6 +13,11 @@ class UserPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final user = FirebaseAuth.instance.currentUser!;
+    // // final user = FirebaseAuth.instance.currentUser?.uid;
+    // final FirebaseFirestore _firestore = FirebaseFirestore.instance;
+    // Future<DocumentSnapshot> getUserData() async {
+    //   return await _firestore.collection('datadiri').doc(user.uid).get();
+    // }
     return Scaffold(
         body: SafeArea(
       child: SingleChildScrollView(
@@ -65,7 +71,7 @@ class UserPage extends StatelessWidget {
                       width: 84,
                       height: 84,
                       child: CircleAvatar(
-                        backgroundImage: AssetImage('images/ria.JPG'),
+                        backgroundImage: AssetImage('images/user.png'),
                         radius: 50,
                       ),
                     )),
@@ -75,7 +81,7 @@ class UserPage extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Ria Kusmara',
+                          'Ramanda Danny',
                           style: TextStyle(
                               fontSize: 20, fontWeight: extraBold, color: bg2),
                         ),
@@ -108,7 +114,7 @@ class UserPage extends StatelessWidget {
                         height: 5,
                       ),
                       Text(
-                        'Ria Kusmara',
+                        'Ramanda Danny',
                         style: TextStyle(
                           fontSize: 12,
                           fontWeight: regular,
@@ -177,7 +183,7 @@ class UserPage extends StatelessWidget {
                         height: 5,
                       ),
                       Text(
-                        '085880578318',
+                        '082234367722',
                         style: TextStyle(
                           fontSize: 12,
                           fontWeight: regular,
