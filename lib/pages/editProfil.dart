@@ -89,7 +89,7 @@ class _EditProfilState extends State<EditProfil> {
                         // textInputAction: TextInputAction.done,
                         decoration: InputDecoration(
                             border: UnderlineInputBorder(),
-                            labelText: 'Ria Kusmara',
+                            labelText: 'SANNNY',
                             labelStyle: TextStyle(fontSize: 12)),
                       ),
                     ],
