@@ -44,6 +44,7 @@ class _SignUpPageState extends State<SignUpPage> {
     );
 
     addUserDetails(
+        emailController.text.trim(),
         firstNameController.text.trim(),
         lastNameController.text.trim(),
         domisiliController.text.trim(),
@@ -51,8 +52,10 @@ class _SignUpPageState extends State<SignUpPage> {
   }
 
   Future addUserDetails(
+      String email,
       String firstName, String lastName, String domisili, String telp) async {
     await FirebaseFirestore.instance.collection('users').add({
+      'email': email,
       'firstName': firstName,
       'lastName': lastName,
       'domisili': domisili,
