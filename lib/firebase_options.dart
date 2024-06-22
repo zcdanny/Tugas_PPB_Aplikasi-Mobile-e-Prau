@@ -27,10 +27,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.macOS:
         return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -44,39 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAcDXKN-690h6FEbzhsx3DhERAVVuyuVwY',
-    appId: '1:340431038693:web:97081d1905cde66daecc0c',
-    messagingSenderId: '340431038693',
-    projectId: 'flutter-fire-try-6831a',
-    authDomain: 'flutter-fire-try-6831a.firebaseapp.com',
-    storageBucket: 'flutter-fire-try-6831a.appspot.com',
+    apiKey: 'AIzaSyCoUAVLSHVLl1Bg8kWPzBr2g1JEZpsIerw',
+    appId: '1:443699200036:web:82773d25eaf25b681058b1',
+    messagingSenderId: '443699200036',
+    projectId: 'e-prau',
+    authDomain: 'e-prau.firebaseapp.com',
+    storageBucket: 'e-prau.appspot.com',
+    measurementId: 'G-T8G5RSXPET',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBubPBHLDvsMKtoZEZF3rFHKmDuC1rDtf0',
-    appId: '1:340431038693:android:7a1e9f25d09ba55eaecc0c',
-    messagingSenderId: '340431038693',
-    projectId: 'flutter-fire-try-6831a',
-    storageBucket: 'flutter-fire-try-6831a.appspot.com',
+    apiKey: 'AIzaSyBk1DXAtI3PsDHud4NvAg0PTiGUlYoDpa0',
+    appId: '1:443699200036:android:e60cc317e01d2b6e1058b1',
+    messagingSenderId: '443699200036',
+    projectId: 'e-prau',
+    storageBucket: 'e-prau.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyByme3K6CDKa-H5n6RDxtNl_uC4I4EkxZU',
-    appId: '1:340431038693:ios:e37ea8169455a00daecc0c',
-    messagingSenderId: '340431038693',
-    projectId: 'flutter-fire-try-6831a',
-    storageBucket: 'flutter-fire-try-6831a.appspot.com',
-    iosClientId: '340431038693-48f1g4fbl257vjhouphtnsj46d950j9d.apps.googleusercontent.com',
+    apiKey: 'AIzaSyDkbiV3tMqjw7o5Ha-y51U9QeuTlePXuXo',
+    appId: '1:443699200036:ios:c7ed17d18ad803331058b1',
+    messagingSenderId: '443699200036',
+    projectId: 'e-prau',
+    storageBucket: 'e-prau.appspot.com',
     iosBundleId: 'com.example.moencakApps',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyByme3K6CDKa-H5n6RDxtNl_uC4I4EkxZU',
-    appId: '1:340431038693:ios:e37ea8169455a00daecc0c',
-    messagingSenderId: '340431038693',
-    projectId: 'flutter-fire-try-6831a',
-    storageBucket: 'flutter-fire-try-6831a.appspot.com',
-    iosClientId: '340431038693-48f1g4fbl257vjhouphtnsj46d950j9d.apps.googleusercontent.com',
+    apiKey: 'AIzaSyDkbiV3tMqjw7o5Ha-y51U9QeuTlePXuXo',
+    appId: '1:443699200036:ios:c7ed17d18ad803331058b1',
+    messagingSenderId: '443699200036',
+    projectId: 'e-prau',
+    storageBucket: 'e-prau.appspot.com',
     iosBundleId: 'com.example.moencakApps',
   );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyCoUAVLSHVLl1Bg8kWPzBr2g1JEZpsIerw',
+    appId: '1:443699200036:web:f292305c5b3ea5c21058b1',
+    messagingSenderId: '443699200036',
+    projectId: 'e-prau',
+    authDomain: 'e-prau.firebaseapp.com',
+    storageBucket: 'e-prau.appspot.com',
+    measurementId: 'G-YSMK7ZG21N',
+  );
+
 }
