@@ -43,7 +43,7 @@ class HomePage extends StatelessWidget {
                                 width: 12,
                               ),
                               Text(
-                                'Hai, Ria Kusmara',
+                                'Hai, Para Pendaki',
                                 style:
                                     TextStyle(fontSize: 18.0, fontWeight: bold),
                               ),
